@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Willow & Paws | Family-Raised Puppies</title>
+<meta name="description" content="Willow & Paws — a private puppy listing website for families looking for a loving companion.">
+<style>
+:root{--ink:#26302a;--cream:#fbf8f2;--sage:#788b78;--sand:#e7d8c5;--white:#fff;--muted:#687069}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+header{position:sticky;top:0;z-index:20;background:#fbf8f2eF;backdrop-filter:blur(10px);border-bottom:1px solid #e5dfd6;padding:17px 6%;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;letter-spacing:.5px;font-size:21px}.brand span{font-weight:400;color:var(--sage)}
+nav a{color:var(--ink);text-decoration:none;margin-left:24px;font-size:14px;font-weight:700}
+.hero{padding:82px 6% 70px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;background:linear-gradient(135deg,#fbf8f2,#efe7dc)}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;color:var(--sage);font-size:12px;font-weight:800}
+h1{font-family:Georgia,serif;font-size:58px;line-height:1.05;margin:13px 0 20px;max-width:680px}
+.hero p{font-size:18px;color:var(--muted);max-width:590px}.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;padding:13px 22px;border-radius:8px;font-weight:700;margin-top:10px}
+.hero-art{min-height:360px;border-radius:28px;background:var(--sand);display:flex;align-items:center;justify-content:center;box-shadow:0 18px 50px #26302a1a}
+.dog{font-size:130px}.hero-art small{display:block;text-align:center;font-weight:700;color:#5e5145;margin-top:-15px}
+section{padding:70px 6%}.heading{text-align:center;margin-bottom:36px}.heading h2{font-family:Georgia,serif;font-size:38px;margin:0 0 8px}.heading p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid #e7e1d8;border-radius:16px;padding:25px;box-shadow:0 7px 25px #26302a0b}.card h3{margin-top:0;font-size:22px}.price{font-weight:800;color:var(--sage);margin:12px 0}.tag{display:inline-block;background:#eef1eb;color:#4e6250;padding:5px 9px;border-radius:20px;font-size:12px;font-weight:700}
+.steps{counter-reset:step}.step:before{counter-increment:step;content:counter(step);display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--sand);align-items:center;justify-content:center;font-weight:800;margin-bottom:12px}
+.contact{background:var(--ink);color:#fff;text-align:center}.contact p{color:#d9ded9}.contact .btn{background:#fff;color:var(--ink)}
+footer{text-align:center;padding:25px;color:#70766f;font-size:13px}
+.note{font-size:12px;color:#7b817a;margin-top:18px}
+@media(max-width:800px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.hero h1{font-size:43px}.grid{grid-template-columns:1fr}.hero-art{min-height:260px}.dog{font-size:100px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Willow <span>&</span> Paws</div>
+  <nav><a href="#puppies">Puppies</a><a href="#about">About</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+  <div>
+    <div class="eyebrow">Private puppy listings</div>
+    <h1>A loving start for your next best friend.</h1>
+    <p>Welcome to Willow & Paws. Browse our puppy listings, learn about each puppy, and contact us for current availability and details.</p>
+    <a class="btn" href="#puppies">See available puppies</a>
+  </div>
+  <div class="hero-art"><div><div class="dog">🐶</div><small>Willow & Paws</small></div></div>
+</section>
+
+<section id="puppies">
+  <div class="heading"><h2>Available Puppies</h2><p>Sample listings are ready for you to replace with your real puppies.</p></div>
+  <div class="grid">
+    <article class="card"><span class="tag">Available</span><h3>Brown Poodle</h3><p>Playful companion with a sweet temperament.</p><div class="price">Price: Contact for current price</div><p>Age: Add age · Sex: Add sex · Location: Add location</p></article>
+    <article class="card"><span class="tag">Available</span><h3>Maltipoo</h3><p>Friendly companion puppy for a suitable loving home.</p><div class="price">Price: Contact for current price</div><p>Age: Add age · Sex: Add sex · Location: Add location</p></article>
+    <article class="card"><span class="tag">Available</span><h3>Schnauzer</h3><p>Active, affectionate and ready for a responsible family.</p><div class="price">Price: Contact for current price</div><p>Age: Add age · Sex: Add sex · Location: Add location</p></article>
+  </div>
+  <p class="note">For each real listing, include truthful age, health/vaccination information, price and location.</p>
+</section>
+
+<section id="about">
+  <div class="heading"><h2>About Willow & Paws</h2><p>A simple, personal place to present puppies clearly and professionally.</p></div>
+  <div class="grid">
+    <div class="card"><h3>Clear information</h3><p>Each puppy can have its own photos, age, sex, temperament, price and care information.</p></div>
+    <div class="card"><h3>Open communication</h3><p>Prospective owners can ask questions before arranging a visit or handover.</p></div>
+    <div class="card"><h3>Responsible homes</h3><p>We encourage suitable homes and honest communication about every puppy's needs.</p></div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="heading"><h2>How It Works</h2><p>A straightforward way for families to enquire.</p></div>
+  <div class="grid steps">
+    <div class="card step"><h3>Choose a puppy</h3><p>Review the current listings and select the puppy you are interested in.</p></div>
+    <div class="card step"><h3>Ask questions</h3><p>Contact us for current photos, availability, health information and pricing.</p></div>
+    <div class="card step"><h3>Arrange next steps</h3><p>Discuss a suitable meeting, pickup or other lawful handover arrangement.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Interested in a puppy?</h2>
+  <p>Contact Willow & Paws for current availability and genuine listing details.</p>
+  <!-- Replace # with your real WhatsApp or website contact URL -->
+  <a class="btn" href="#">Message Willow & Paws</a>
+  <p class="note">Replace this button with your real contact link before publishing.</p>
+</section>
+
+<footer>© 2026 Willow & Paws. All rights reserved.</footer>
+</body>
+</html>
